@@ -18,7 +18,7 @@ const projects = [
       "Chatbot for Customer Interaction (in development)",
     ],
     techStack: ["Python (Tkinter GUI)", "SQLite", "Plotly", "yowsup (WhatsApp)"],
-    imageUrl: "https://picsum.photos/seed/inventory/600/400", // Placeholder Image
+    imageUrl: "/Screenshot 2025-04-27 195045.png", // Placeholder Image
     githubLink: "https://github.com/Bhavukadlakha", // Replace with actual link if available
     liveLink: null,
   },
@@ -36,7 +36,7 @@ const projects = [
     description: "A web-based dashboard connected to the inventory system database to visualize sales trends, stock status, and employee performances.",
     features: [],
     techStack: ["HTML", "CSS", "JavaScript (basic)", "Flask/Django (future)", "Plotly.js"],
-    imageUrl: "https://picsum.photos/seed/dashboard/600/400", // Placeholder Image
+    imageUrl: "/Screenshot 2025-04-27 195059.png", // Placeholder Image
     githubLink: "https://github.com/Bhavukadlakha", // Replace with actual link
     liveLink: null,
   },

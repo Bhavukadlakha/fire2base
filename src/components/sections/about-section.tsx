@@ -35,7 +35,6 @@ export function AboutSection() {
           </div>
           <div className="flex justify-center">
            <Avatar className="w-48 h-48 lg:w-64 lg:h-64 border-4 border-primary shadow-lg">
-             {/* Move the image 'Screenshot 2025-04-27 193958.png' to the public folder */}
                <AvatarImage src="/Screenshot 2025-04-27 193958.png" alt="Bhavuk Adlakha" />
                <AvatarFallback>BA</AvatarFallback>
              </Avatar>
