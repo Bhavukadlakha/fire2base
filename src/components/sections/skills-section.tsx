@@ -35,7 +35,7 @@ interface SkillItemProps {
 }
 
 const SkillItem: React.FC<SkillItemProps> = ({ name, icon }) => (
-  <Badge variant="secondary" className="flex items-center gap-2 py-1 px-3 text-sm">
+  <Badge variant="secondary" className="flex items-center gap-2 py-1 px-3 text-sm hover:scale-105 transition">
     <span className="text-primary">{icon}</span>
     {name}
   </Badge>

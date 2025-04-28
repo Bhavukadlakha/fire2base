@@ -24,18 +24,19 @@ export function AboutSection() {
                 <span className="text-muted-foreground">Noida, India</span>
               </div>
               <div className="flex items-center gap-2">
-                <Languages className="w-5 h-5 text-primary" />
+               <Languages className="w-5 h-5 text-primary" />
                 <span className="text-muted-foreground">English, Hindi</span>
               </div>
-               <div className="flex items-center gap-2">
+              <div className="flex items-center gap-2">
                 <Smile className="w-5 h-5 text-primary" />
                 <span className="text-muted-foreground">Learning tech, gaming</span>
               </div>
             </div>
           </div>
           <div className="flex justify-center">
-             <Avatar className="w-48 h-48 lg:w-64 lg:h-64 border-4 border-primary shadow-lg">
-               <AvatarImage src="https://picsum.photos/seed/bhavuk/400/400" alt="Bhavuk Adlakha" />
+           <Avatar className="w-48 h-48 lg:w-64 lg:h-64 border-4 border-primary shadow-lg">
+             {/* Move the image 'Screenshot 2025-04-27 193958.png' to the public folder */}
+               <AvatarImage src="/Screenshot 2025-04-27 193958.png" alt="Bhavuk Adlakha" />
                <AvatarFallback>BA</AvatarFallback>
              </Avatar>
           </div>
