@@ -1,0 +1,11 @@
+{
+  "buildCommand": "npx prisma generate && npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "NEXTAUTH_SECRET": "@nextauth_secret",
+    "EMAIL_SERVER": "@email_server", 
+    "EMAIL_FROM": "@email_from",
+    "DATABASE_URL": "@database_url"
+  }
+}
