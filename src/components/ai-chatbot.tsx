@@ -85,7 +85,7 @@ export function AiChatbot() {
              side="top"
              align="end"
              className="w-80 md:w-96 p-0 border-none shadow-xl rounded-lg overflow-hidden mr-2 mb-2" // Adjusted margin
-             onOpenAutoFocus={(e) => e.preventDefault()} // Prevent focus stealing
+             onOpenAutoFocus={(e) => (e as Event).preventDefault()} // Prevent focus stealing
          >
              <div className="flex flex-col h-[28rem]"> {/* Fixed height */}
                  <header className="bg-primary text-primary-foreground p-3 flex items-center justify-between">

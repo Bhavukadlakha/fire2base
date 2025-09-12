@@ -24,7 +24,7 @@ body {
     --accent-foreground: 180 100% 20%; /* Darker Teal */
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
-    --border: 214 32% 91.4%; /* Light Gray */
+    --border: 214.3 31.8% 91.4%; /* Updated Light Gray */
     --input: 214 32% 91.4%;
     --ring: 180 100% 25%; /* Teal */
     --chart-1: 180 76% 61%;
@@ -60,7 +60,7 @@ body {
     --accent-foreground: 180 100% 90%; /* Lighter Teal */
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
-    --border: 215 28% 25%; /* Dark Gray Blue */
+    --border: 217.2 32.6% 17.5%; /* Updated Dark Gray Blue */
     --input: 215 28% 25%;
     --ring: 180 100% 35%; /* Brighter Teal */
     --chart-1: 180 70% 50%;

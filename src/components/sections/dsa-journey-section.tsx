@@ -1,3 +1,4 @@
+import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckCircle, BrainCircuit, ListOrdered } from 'lucide-react';
 import Link from "next/link";
@@ -31,7 +32,7 @@ export function DsaJourneySection() {
                 Building a strong foundation for Competitive Programming and Interviews.
               </li>
             </ul>
-            <Button asChild variant="link" className="px-0">
+            <Button asChild className="px-0">
                 <Link href="https://leetcode.com/u/Bhavukadlakha/" target="_blank" rel="noopener noreferrer">
                     View my LeetCode Profile &rarr;
                 </Link>

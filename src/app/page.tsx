@@ -4,6 +4,7 @@ import { SkillsSection } from '@/components/sections/skills-section';
 import { ProjectsSection } from '@/components/sections/projects-section';
 import { DsaJourneySection } from '@/components/sections/dsa-journey-section';
 import { EducationSection } from '@/components/sections/education-section';
+import { PersonalitySection } from '@/components/sections/personality-section';
 import { ContactSection } from '@/components/sections/contact-section';
 import { AiChatbot } from '@/components/ai-chatbot';
 import { Navbar } from '@/components/navbar';
@@ -22,6 +23,7 @@ export default function Home() {
           <ProjectsSection />
           <DsaJourneySection />
           <EducationSection />
+          <PersonalitySection />
           <ContactSection />
         </ScrollAnimator>
       </main>
