@@ -42,7 +42,7 @@ const projects = [
     liveLink: null,
   },
   {
-    title: "Automated AI call assistant for healthcare buisnesses",
+    title: "Automated AI call assistant        (GOOGLE-HACKTHON-QUALIFIER)",
     description: "An Automated call receptionist which can help you find the best suitable slot for your appointment with your requested doctor and according to type of your appointment.",
     features: ["Automated Call Handling: Answers incoming calls and interacts with callers using AI.",
 "Speech Recognition: Converts spoken language into text for processing.",
