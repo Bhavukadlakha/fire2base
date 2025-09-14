@@ -9,7 +9,7 @@ interface AboutDetail {
 }
 
 const aboutDetails: AboutDetail[] = [
-  { icon: <MapPin className="w-5 h-5 text-primary" />, text: "Noida, India" },
+  { icon: <MapPin className="w-5 h-5 text-primary" />, text: "faridabad, India" },
   { icon: <Languages className="w-5 h-5 text-primary" />, text: "English, Hindi" },
   { icon: <Smile className="w-5 h-5 text-primary" />, text: "Learning tech, gaming" }
 ];
@@ -24,7 +24,7 @@ export function AboutSection(): JSX.Element {
               About Me
             </h2>
             <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-              I am Bhavuk Adlakha, a final-year B.Tech Computer Science student at Amity University, Noida (Batch 2021–2025). With strong problem-solving skills, a dynamic thinking approach, and a passion for continuous learning, I love building projects that make an impact.
+              I am Bhavuk Adlakha, a final-year B.Tech Computer Science student at Manav Rachna University, faridabad (Batch 2023–2027). With strong problem-solving skills, a dynamic thinking approach, and a passion for continuous learning, I love building projects that make an impact.
             </p>
             <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               I have developed a fully functional Inventory Management System from scratch, integrating sales tracking, billing, credit management, employee tracking, and AI-powered analytics.

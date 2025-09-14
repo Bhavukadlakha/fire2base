@@ -14,14 +14,14 @@ export function EducationSection() {
                 <GraduationCap className="w-6 h-6 text-primary" />
                 B.Tech Computer Science and Engineering
               </CardTitle>
-              <CardDescription>Amity University, Noida</CardDescription>
+              <CardDescription>Manav Rachna University, faridabad</CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground">
-                (2021 – 2025)
+                (2023 – 2027)
               </p>
                <p className="text-sm text-muted-foreground">
-                Expected Graduation: 2025
+                Graduation: 2027
               </p>
                {/* Add any relevant coursework or achievements here if desired */}
             </CardContent>

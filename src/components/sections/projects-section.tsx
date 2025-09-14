@@ -24,20 +24,38 @@ const projects = [
     liveLink: null,
   },
   {
-    title: "Heart Disease Prediction ML Project",
-    description: "An AI model that predicts the likelihood of heart disease based on user answers to basic health-related questions.",
-    features: [],
+    title: "Face-Recoginiton-Entry-System",
+    description: "An AI model that recognisizes faces and checks if it matches the database and then allows entry or exit with kepping a log of the person's name time date of entry and exit.",
+    features: ["Real-time Face Recognition: Uses DeepFace (VGG-Face model) for automatic recognition at entry/exit gates.", 
+      "Dual Gate System: Separate Gate In (green) and Gate Out (red) panels with real-time camera feeds.",
+"Automatic Attendance Tracking: Tracks who is currently inside or outside in real time.",
+"MongoDB Integration: Stores all gate logs and attendance data",
+"Automatic & Manual Data Sync: Syncs attendant data every 30 seconds and allows manual sync.",
+"Modern UI: Tkinter-based interface with a three-column layout, status bar, and menu bar.",
+"Photo Comparison Tool: Manual photo comparison window for verification.",
+"Comprehensive Error Handling: Handles camera, database, recognition, and system errors gracefully.",
+"Logging System: Logs to both file (data/logs/gate_system.log) and console with structured messages.",
+    ],
     techStack: ["Python", "scikit-learn", "Streamlit (upcoming UI)"],
-    imageUrl: "https://picsum.photos/seed/heart/600/400", // Placeholder Image
+    imageUrl: "/Gemini_Generated_Image_bpegi7bpegi7bpeg.png", // Placeholder Image
     githubLink: "https://github.com/Bhavukadlakha", // Replace with actual link
     liveLink: null,
   },
   {
-    title: "Sales Dashboard Website (Upcoming)",
-    description: "A web-based dashboard connected to the inventory system database to visualize sales trends, stock status, and employee performances.",
-    features: [],
-    techStack: ["HTML", "CSS", "JavaScript (basic)", "Flask/Django (future)", "Plotly.js"],
-    imageUrl: "/Screenshot 2025-04-27 195059.png", // Placeholder Image
+    title: "Automated AI call assistant for healthcare buisnesses",
+    description: "An Automated call receptionist which can help you find the best suitable slot for your appointment with your requested doctor and according to type of your appointment.",
+    features: ["Automated Call Handling: Answers incoming calls and interacts with callers using AI.",
+"Speech Recognition: Converts spoken language into text for processing.",
+"Natural Language Understanding: Interprets caller intent and context.",
+"Text-to-Speech: Responds to callers with natural-sounding synthesized speech.",
+"Call Routing: Directs calls to appropriate departments or agents based on caller input.",
+"Call Logging: Records call details and transcripts for future reference.",
+"Integration with CRM: Connects with customer databases to provide personalized responses.",
+"Multi-language Support: Handles calls in multiple languages.",
+"Voicemail Transcription: Converts voicemail messages to text.",
+"Analytics Dashboard: Provides insights into call volume, duration, and outcomes."],
+    techStack: ["HTML", "CSS", "JavaScript (basic)", "Flask/Django (future)", "Plotly.js", "tensorflow", "aws","google speech-to-text translation", "twilio."],
+    imageUrl: "/unnamed.png", // Placeholder Image
     githubLink: "https://github.com/Bhavukadlakha", // Replace with actual link
     liveLink: null,
   },
