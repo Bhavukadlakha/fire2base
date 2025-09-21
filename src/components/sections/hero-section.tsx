@@ -19,6 +19,7 @@ export const HeroSection: React.FC = () => {
           className="object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-700"
           priority
           quality={100}
+          sizes="100vw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-background/90 to-background/50"></div>
       </div>

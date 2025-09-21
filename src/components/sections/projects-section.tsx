@@ -15,7 +15,7 @@ const projects = [
       "Credit Payment Management (send WhatsApp reminders)",
       "Sales Tracking by Employees (Daily, Weekly, Monthly)",
       "Restock Dashboard (critical stock alerts)",
-      "AI Sales Prediction (future feature)",
+      "AI Sales Prediction (using Linear Regression)",
       "Chatbot for Customer Interaction (in development)",
     ],
     techStack: ["Python (Tkinter GUI)", "SQLite", "Plotly", "yowsup (WhatsApp)"],
@@ -36,13 +36,14 @@ const projects = [
 "Comprehensive Error Handling: Handles camera, database, recognition, and system errors gracefully.",
 "Logging System: Logs to both file (data/logs/gate_system.log) and console with structured messages.",
     ],
-    techStack: ["Python", "scikit-learn", "Streamlit (upcoming UI)"],
+    techStack: ["Python", "scikit-learn", "Streamlit "],
     imageUrl: "/Gemini_Generated_Image_bpegi7bpegi7bpeg.png", // Placeholder Image
     githubLink: "https://github.com/Bhavukadlakha", // Replace with actual link
     liveLink: null,
   },
   {
-    title: "Automated AI call assistant        (GOOGLE-HACKTHON-QUALIFIER)",
+    title:( <>Automated AI call assistant        (GOOGLE-HACKTHON-QUALIFIER 2025 <span>5<sup>th</sup></span> POSITION)
+    </>),
     description: "An Automated call receptionist which can help you find the best suitable slot for your appointment with your requested doctor and according to type of your appointment.",
     features: ["Automated Call Handling: Answers incoming calls and interacts with callers using AI.",
 "Speech Recognition: Converts spoken language into text for processing.",
@@ -73,8 +74,9 @@ export function ProjectsSection() {
                 <Image
                   src={project.imageUrl}
                   alt={project.title}
-                  layout="fill"
-                  objectFit="cover"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
               </CardHeader>
               <CardContent className="flex-grow p-6 space-y-4">

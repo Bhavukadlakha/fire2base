@@ -120,7 +120,7 @@ export function PersonalitySection() {
                   <Card className={`
                     ${trait.bgColor} ${trait.borderColor} border-2
                     ${isHovered ? 'shadow-2xl ring-2 ring-primary/20' : 'shadow-lg'}
-                    transition-all duration-500 cursor-pointer group
+                    transition-all duration-300 cursor-pointer group
                     hover:scale-105
                   `}>
                     <CardHeader className="pb-3">
