@@ -11,10 +11,10 @@ export function PersonalitySection() {
   const personalityTraits = [
     {
       id: "openness",
-      name: "Openness",
+      name: "Openness-The Curious Explorer",
       score: 85,
       icon: Brain,
-      description: "I possess a highly creative and imaginative mindset, thriving on exploring new ideas and identifying connections that others might overlook. This trait fuels my passion for building innovative solutions and delving into AI/ML technologies.",
+      description: "I have a high level of openness, which means I’m naturally curious, imaginative, and eager to explore new experiences and perspectives. This fuels my analytical side because I love asking deep questions, discovering new ideas, and challenging the usual way of thinking.I notice this in my behavior: I explore diverse topics, from AI applications like my Inventory Management System to psychology, cultural differences, and even game modding. I genuinely enjoy learning and expanding my horizons.",
       color: "from-blue-400 to-blue-600",
       bgColor: "bg-blue-50 dark:bg-blue-950/20",
       borderColor: "border-blue-200 dark:border-blue-800",
@@ -22,10 +22,10 @@ export function PersonalitySection() {
     },
     {
       id: "conscientiousness",
-      name: "Conscientiousness", 
+      name: "Conscientiousness-The Structured Achiever", 
       score: 75,
       icon: Target,
-      description: "With a strong sense of responsibility, I am well-organized and goal-oriented. I consistently strive for excellence in my projects, ensuring high standards and attention to detail.",
+      description: "I’m quite organized, disciplined, and focused. This trait keeps my curiosity grounded and helps me structure my thoughts logically instead of letting them scatter.When I work on projects, I naturally break them down into steps and plan carefully. For example, while building technical systems, I list out tools and techniques like SAM, MiDaS, depth estimation, and ControlNet in a clear order. I like refining ideas methodically until they make sense.",
       color: "from-green-400 to-green-600",
       bgColor: "bg-green-50 dark:bg-green-950/20",
       borderColor: "border-green-200 dark:border-green-800",
@@ -33,10 +33,10 @@ export function PersonalitySection() {
     },
     {
       id: "extraversion",
-      name: "Extraversion",
+      name: "Extraversion-The Expressive Analyzer",
       score: 79,
       icon: Users,
-      description: "I am energetic and enjoy collaborating with others. My enthusiasm and communication skills make me an effective team player, contributing positively to group dynamics.",
+      description: "I enjoy communicating, discussing, and sharing insights with others. This trait allows my analytical side to shine in conversations and collaborations. I notice that I often share links, screenshots, and thoughts openly. Whether the topic is technical, personal, or cultural, I like engaging actively and expressing my ideas clearly.",
       color: "from-yellow-400 to-yellow-600",
       bgColor: "bg-yellow-50 dark:bg-yellow-950/20",
       borderColor: "border-yellow-200 dark:border-yellow-800",
@@ -44,10 +44,10 @@ export function PersonalitySection() {
     },
     {
       id: "agreeableness",
-      name: "Agreeableness",
+      name: "Agreeableness-The Open Collaborator",
       score: 73,
       icon: Heart,
-      description: "Empathetic and cooperative, I value teamwork and maintain a positive attitude in professional interactions, focusing on resolving conflicts and promoting harmony.",
+      description: "I’m generally open-minded, receptive to feedback, and cooperative. This helps me refine my analysis because I can consider different perspectives and adjust my thinking accordingly. I often accept well-reasoned explanations and enjoy exploring alternative viewpoints. I don’t treat discussions like arguments; I treat them like opportunities to sharpen my understanding..",
       color: "from-purple-400 to-purple-600",
       bgColor: "bg-purple-50 dark:bg-purple-950/20",
       borderColor: "border-purple-200 dark:border-purple-800",
@@ -55,10 +55,10 @@ export function PersonalitySection() {
     },
     {
       id: "neuroticism",
-      name: "Neuroticism",
+      name: "Neuroticism –The Reflective Perfectionist",
       score: 75,
       icon: Shield,
-      description: "I am sensitive to potential risks and challenges, which makes me vigilant and proactive in problem-solving, ensuring stability in high-pressure situations.",
+      description: "I’m not so emotionally sensitive and tend to be self-critical in a way that pushes me toward perfectionism. For me, this often drives deeper checking, refining, and improving ideas. I find myself revisiting topics multiple times to make sure I truly understand them. I care about precision and correctness—whether I’m dealing with technical problems, cultural questions, or personal issues..",
       color: "from-red-400 to-red-600",
       bgColor: "bg-red-50 dark:bg-red-950/20",
       borderColor: "border-red-200 dark:border-red-800",
@@ -92,12 +92,16 @@ export function PersonalitySection() {
           <div className="flex items-center justify-center gap-3 mb-4">
             <Sparkles className="w-8 h-8 text-primary" />
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              OCEAN PERSONALITY TEST
+              OCEAN PERSONALITY TEST AND THINKING STYLE
             </h2>
             <Sparkles className="w-8 h-8 text-primary" />
           </div>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            This Big Five assessment reveals the dimensions of my personality and professional profile.
+           <b>My Thinking Style: ANALYZING </b> <br/>
+
+           I approach the world through exploration and precision. I enjoy diving deep into topics, uncovering patterns, and finding connections that others might miss. I prefer to base my conclusions on data and evidence, not just intuition.
+
+I have a habit of testing assumptions carefully before accepting them, and I feel a strong sense of satisfaction when I solve complex problems step by step. This analytical mindset shapes the way I learn, build, and communicate.
           </p>
         </div>
 
