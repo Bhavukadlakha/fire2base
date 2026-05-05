@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
       {/* Background Image with Enhanced Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/WhatsApp Image 2025-02-11 at 1.29.39 AM (12).jpeg"
+          src="/WhatsApp Image 2026-05-05 at 6.06.31 PM"
           alt="Background"
           fill
           className="object-cover opacity-85 group-hover:opacity-100 transition-opacity duration-700"
